@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#160b11">
+    <meta name="description" content="Um cantinho feito com amor para guardar a nossa história.">
+    <title>Para você, minha Anninha ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header" id="inicio">
+        <a class="brand" href="#inicio" aria-label="Voltar ao início">
+            <span>A</span><span class="brand-heart">♥</span><span>A</span>
+        </a>
+        <nav aria-label="Navegação principal">
+            <a href="#nossa-historia">Nossa história</a>
+            <a href="#memorias">Nossas Memórias </a>
+        </nav>
+    </header>
+
+    <main id="conteudo">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-glow hero-glow-one" aria-hidden="true"></div>
+            <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
+
+            <div class="hero-copy reveal">
+                <p class="eyebrow"><span></span> desde 10 de abril de 2023</p>
+                <h1 id="hero-title">Para você,<br><em>minha Anninha.</em></h1>
+                <p class="hero-message">Eu te amo muito, minha princesa. Este é o nosso site feito pra lembrar cada momento nosso, de longe o meu site favorito!</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#memorias">Ver nossas fotos <span aria-hidden="true">↓</span></a>
+                    <button class="button button-ghost" id="love-button" type="button">Espalhar coração <span aria-hidden="true">♥</span></button>
+                </div>
+            </div>
+
+            <div class="hero-photo-wrap reveal" aria-label="Uma foto especial de nós dois">
+                <div class="photo-backdrop" aria-hidden="true"></div>
+                <figure class="hero-photo">
+                    <img src="assets/photos/2024-09-28.jpg" alt="A gente sorrindo" width="800" height="600">
+                    <figcaption>
+                        <span>nós dois</span>
+                        <small>minha pessoa favorita</small>
+                    </figcaption>
+                </figure>
+                <span class="date-stamp" aria-hidden="true">10 · 04 · 23</span>
+            </div>
+
+            <a class="scroll-cue" href="#nossa-historia" aria-label="Continuar para nossa história">
+                <span>continue</span><i aria-hidden="true"></i>
+            </a>
+        </section>
+
+        <section class="story" id="nossa-historia" aria-labelledby="story-title">
+            <div class="section-heading reveal">
+                <p class="eyebrow eyebrow-dark"><span></span> cada segundo ao seu lado anninha</p>
+                <h2 id="story-title">Todo esse tempo sendo <em> feliz com você, bocó.</em></h2>
+                <p>Aqui ele conta os dias com o tempo certo, pra gente saber exatamente nosso tempo hihi</p>
+            </div>
+
+            <div class="counter-card reveal" aria-label="Tempo desde 10 de abril de 2023">
+                <div class="counter-intro">
+                    <span class="counter-heart" aria-hidden="true">♥</span>
+                    <div>
+                        <small>Estamos juntos há</small>
+                        <strong>MUITO TEMPO!</strong>
+                    </div>
+                </div>
+                <div class="time-grid" id="counter" aria-live="polite">
+                    <div><strong data-time="years">0</strong><span>anos</span></div>
+                    <div><strong data-time="months">0</strong><span>meses</span></div>
+                    <div><strong data-time="days">0</strong><span>dias</span></div>
+                    <div><strong data-time="hours">0</strong><span>horas</span></div>
+                    <div><strong data-time="minutes">0</strong><span>min</span></div>
+                    <div><strong data-time="seconds">0</strong><span>seg</span></div>
+                </div>
+            </div>
+
+            <blockquote class="love-note reveal">
+                <span class="quote-mark" aria-hidden="true">“</span>
+                <p>Não importa quanto tempo passe, eu vou te amar durante toda minha vida.</p>
+                <footer>Para a minha bocó de mola, com todo o meu amor do meu coração bem grandão.</footer>
+            </blockquote>
+        </section>
+
+        <section class="gallery-section" id="memorias" aria-labelledby="gallery-title">
+            <div class="gallery-heading reveal">
+                <div>
+                    <p class="eyebrow"><span></span> nosso álbum</p>
+                    <h2 id="gallery-title">Fotos que nunca vou <em>esquecer.</em></h2>
+                </div>
+                <p>Algumas fotos para a gente relembrar da nossa vida juntos desde o inicio.</p>
+            </div>
+
+            <div class="filters reveal" role="group" aria-label="Filtrar fotos por ano">
+                <button class="filter active" type="button" data-filter="all" aria-pressed="true">Todas</button>
+                <button class="filter" type="button" data-filter="2023" aria-pressed="false">2023</button>
+                <button class="filter" type="button" data-filter="2024" aria-pressed="false">2024</button>
+                <button class="filter" type="button" data-filter="2025" aria-pressed="false">2025</button>
+                <button class="filter" type="button" data-filter="2026" aria-pressed="false">2026</button>
+            </div>
+
+            <div class="gallery" aria-label="Galeria de memórias">
+                <button class="gallery-card portrait reveal" type="button" data-year="2023" data-date="12 de abril de 2023">
+                    <img src="assets/photos/2023-04-12.jpg" alt="A gente em uma foto aleatoria" loading="lazy" width="2868" height="3824">
+                    <span class="photo-label"><small>12 · 04 · 2023</small><strong>O comecinho dos bocós</strong></span>
+                </button>
+                <button class="gallery-card landscape reveal" type="button" data-year="2023" data-date="19 de abril de 2023">
+                    <img src="assets/photos/2023-04-19.jpg" alt="A gente fazendo careta" loading="lazy" width="1600" height="900">
+                    <span class="photo-label"><small>19 · 04 · 2023</small><strong>Colocando a lingua pra fora</strong></span>
+                </button>
+                <button class="gallery-card landscape reveal" type="button" data-year="2023" data-date="6 de maio de 2023">
+                    <img src="assets/photos/2023-05-06.jpg" alt="A gente deitado" loading="lazy">
+                    <span class="photo-label"><small>06 · 05 · 2023</small><strong>Na sua casa</strong></span>
+                </button>
+                <button class="gallery-card landscape reveal" type="button" data-year="2023" data-date="30 de junho de 2023">
+                    <img src="assets/photos/2023-06-30.jpg" alt="A gente em uma festa" loading="lazy">
+                    <span class="photo-label"><small>30 · 06 · 2023</small><strong>A gente no aniversario</strong></span>
+                </button>
+                <button class="gallery-card portrait reveal" type="button" data-year="2023" data-date="3 de julho de 2023">
+                    <img src="assets/photos/2023-07-03.jpg" alt="Uma das fotos que eu mais gosto" loading="lazy">
+                    <span class="photo-label"><small>03 · 07 · 2023</small><strong>Seu beijo que eu tanto amo</strong></span>
+                </button>
+                <button class="gallery-card portrait reveal" type="button" data-year="2023" data-date="1 de setembro de 2023">
+                    <img src="assets/photos/2023-09-01.jpg" alt="A gente tirando foto no espelho" loading="lazy">
+                    <span class="photo-label"><small>01 · 09 · 2023</small><strong>Fotinha dos bocós</strong></span>
+                </button>
+                <button class="gallery-card portrait reveal" type="button" data-year="2023" data-date="7 de outubro de 2023">
+                    <img src="assets/photos/2023-10-07.jpg" alt="A gente junto nos girassóis" loading="lazy">
+                    <span class="photo-label"><small>07 · 10 · 2023</small><strong>Van Gogh</strong></span>
+                </button>
+                <button class="gallery-card landscape reveal" type="button" data-year="2024" data-date="3 de março de 2024">
+                    <img src="assets/photos/2024-03-03.jpg" alt="A gente junto" loading="lazy" width="1280" height="960">
+                    <span class="photo-label"><small>03 · 03 · 2024</small><strong>Minha princesa de azul</strong></span>
+                </button>
+                <button class="gallery-card landscape reveal" type="button" data-year="2024" data-date="10 de março de 2024">
+                    <img src="assets/photos/2024-03-10.jpg" alt="A gente tirando foto no espelho" loading="lazy" width="1280" height="960">
+                    <span class="photo-label"><small>10 · 03 · 2024</small><strong>Juntinhos no center norte</strong></span>
+                </button>
+                <button class="gallery-card portrait reveal" type="button" data-year="2024" data-date="13 de abril de 2024">
+                    <img src="assets/photos/2024-04-13.jpg" alt="Sorrindo" loading="lazy">
+                    <span class="photo-label"><small>13 · 04 · 2024</small><strong>Parque do internacional</strong></span>
+                </button>
+                <button class="gallery-card portrait reveal" type="button" data-year="2024" data-date="9 de julho de 2024">
+                    <img src="assets/photos/2024-07-09.jpg" alt="A gente de novo hihihi" loading="lazy">
+                    <span class="photo-label"><small>09 · 07 · 2024</small><strong>Boliche juntos!</strong></span>
+                </button>
+                <button class="gallery-card landscape reveal" type="button" data-year="2024" data-date="28 de setembro de 2024">
+                    <img src="assets/photos/2024-09-28.jpg" alt="Oficial" loading="lazy" width="800" height="600">
+                    <span class="photo-label"><small>28 · 09 · 2024</small><strong>A foto original do site</strong></span>
+                </button>
+                <button class="gallery-card portrait reveal" type="button" data-year="2024" data-date="22 de outubro de 2024">
+                    <img src="assets/photos/2024-10-22.jpg" alt="Trote" loading="lazy">
+                    <span class="photo-label"><small>22 · 10 · 2024</small><strong>Cabelo maluco</strong></span>
+                </button>
+                <button class="gallery-card landscape reveal" type="button" data-year="2024" data-date="7 de novembro de 2024">
+                    <img src="assets/photos/2024-11-07.jpg" alt="USP" loading="lazy">
+                    <span class="photo-label"><small>07 · 11 · 2024</small><strong>Feira do livro juntos</strong></span>
+                </button>
+                <button class="gallery-card landscape reveal" type="button" data-year="2024" data-date="29 de novembro de 2024">
+                    <img src="assets/photos/2024-11-29.jpg" alt="Gincana" loading="lazy">
+                    <span class="photo-label"><small>29 · 11 · 2024</small><strong>Dia incrível no parque</strong></span>
+                </button>
+                <button class="gallery-card portrait reveal" type="button" data-year="2025" data-date="27 de maio de 2025">
+                    <img src="assets/photos/2025-05-27.jpg" alt="Trote disney" loading="lazy" width="853" height="1280">
+                    <span class="photo-label"><small>27 · 05 · 2025</small><strong>Mickey e Minnie ❤️</strong></span>
+                </button>
+                <button class="gallery-card portrait reveal" type="button" data-year="2025" data-date="10 de julho de 2025">
+                    <img src="assets/photos/2025-07-10.jpg" alt="Pixar" loading="lazy">
+                    <span class="photo-label"><small>10 · 07 · 2025</small><strong>Bone dos monstros</strong></span>
+                </button>
+                <button class="gallery-card portrait reveal" type="button" data-year="2025" data-date="11 de julho de 2025">
+                    <img src="assets/photos/2025-07-11.jpg" alt="Pixar moto" loading="lazy" width="3024" height="4032">
+                    <span class="photo-label"><small>11 · 07 · 2025</small><strong>A gente na moto</strong></span>
+                </button>
+                <button class="gallery-card landscape reveal" type="button" data-year="2025" data-date="2 de agosto de 2025">
+                    <img src="assets/photos/2025-08-02.jpg" alt="Lago" loading="lazy">
+                    <span class="photo-label"><small>02 · 08 · 2025</small><strong>Lago dos patos</strong></span>
+                </button>
+                <button class="gallery-card landscape reveal" type="button" data-year="2025" data-date="23 de agosto de 2025">
+                    <img src="assets/photos/2025-08-23.jpg" alt="A gente de novo ahahahaha" loading="lazy">
+                    <span class="photo-label"><small>23 · 08 · 2025</small><strong>Eu te amo amorzinho</strong></span>
+                </button>
+                <button class="gallery-card portrait reveal" type="button" data-year="2025" data-date="30 de agosto de 2025">
+                    <img src="assets/photos/2025-08-30.jpg" alt="Agostina" loading="lazy" width="3024" height="4032">
+                    <span class="photo-label"><small>30 · 08 · 2025</small><strong>Agostina 2025 ❤️</strong></span>
+                </button>
+                <button class="gallery-card portrait reveal" type="button" data-year="2025" data-date="10 de novembro de 2025">
+                    <img src="assets/photos/2025-11-10.jpg" alt="Surpresa canadá" loading="lazy">
+                    <span class="photo-label"><small>10 · 11 · 2025</small><strong>Surpresa juntos</strong></span>
+                </button>
+                <button class="gallery-card square reveal" type="button" data-year="2025" data-date="31 de dezembro de 2025">
+                    <img src="assets/photos/2025-12-31-a.jpg" alt="Vó" loading="lazy" width="1280" height="1280">
+                    <span class="photo-label"><small>31 · 12 · 2025</small><strong>Na sua vó</strong></span>
+                </button>
+                <button class="gallery-card portrait reveal" type="button" data-year="2025" data-date="31 de dezembro de 2025">
+                    <img src="assets/photos/2025-12-31-b.jpg" alt="Ano novo" loading="lazy" width="2688" height="4032">
+                    <span class="photo-label"><small>31 · 12 · 2025</small><strong>Ano novo</strong></span>
+                </button>
+                <button class="gallery-card landscape reveal" type="button" data-year="2025" data-date="31 de dezembro de 2025">
+                    <img src="assets/photos/2025-12-31-c.jpg" alt="ano novo 2" loading="lazy" width="4032" height="2688">
+                    <span class="photo-label"><small>31 · 12 · 2025</small><strong>Adoro essa foto anninha</strong></span>
+                </button>
+                <button class="gallery-card portrait reveal" type="button" data-year="2026" data-date="9 de janeiro de 2026">
+                    <img src="assets/photos/2026-01-09.jpg" alt="Formatura" loading="lazy">
+                    <span class="photo-label"><small>09 · 01 · 2026</small><strong>Formatura</strong></span>
+                </button>
+                <button class="gallery-card landscape reveal" type="button" data-year="2026" data-date="18 de janeiro de 2026">
+                    <img src="assets/photos/2026-01-18.jpg" alt="Foto engraçada" loading="lazy">
+                    <span class="photo-label"><small>18 · 01 · 2026</small><strong>Nossas fotos que só a gente gosta</strong></span>
+                </button>
+                <button class="gallery-card portrait reveal" type="button" data-year="2026" data-date="14 de fevereiro de 2026">
+                    <img src="assets/photos/2026-02-14.jpg" alt="Titanic" loading="lazy">
+                    <span class="photo-label"><small>14 · 02 · 2026</small><strong>Anninha na porta do titanic!!!</strong></span>
+                </button>
+                <button class="gallery-card landscape reveal" type="button" data-year="2026" data-date="14 de março de 2026">
+                    <img src="assets/photos/2026-03-14.jpg" alt="Final fotos" loading="lazy" width="4032" height="2688">
+                    <span class="photo-label"><small>14 · 03 · 2026</small><strong>Minha pessoa que eu mais amo e gosto de estar perto ❤️</strong></span>
+                </button>
+            </div>
+        </section>
+
+        <section class="closing" aria-label="Mensagem final">
+            <div class="closing-heart reveal" aria-hidden="true">♥</div>
+            <p class="reveal">Ainda temos tantas fotos pra tirar,<br> lugares pra conhecer, restaurantes pra ver e comer, e em cada lugar desses eu quero estar com você, sempre.</p>
+            <h2 class="reveal">Eu amo você, minha tchutchuca. ❤️</h2>
+            <span class="signature reveal">— Tutu</span>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <span>Feito com <b aria-label="amor">♥</b> para a minha Anninha, minha princesa bocó de mola</span>
+        <small>10.04.2023 — <span id="current-year"></span></small>
+    </footer>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Foto ampliada" hidden>
+        <button class="lightbox-close" type="button" aria-label="Fechar foto">×</button>
+        <button class="lightbox-nav lightbox-prev" type="button" aria-label="Foto anterior">‹</button>
+        <figure>
+            <img id="lightbox-image" src="" alt="">
+            <figcaption>
+                <span id="lightbox-caption"></span>
+                <small id="lightbox-count"></small>
+            </figcaption>
+        </figure>
+        <button class="lightbox-nav lightbox-next" type="button" aria-label="Próxima foto">›</button>
+    </div>
+
+    <div class="heart-burst" id="heart-burst" aria-hidden="true"></div>
+    <script src="script.js"></script>
+</body>
+</html>
